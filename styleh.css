@@ -1,0 +1,230 @@
+img {
+width: 5%;
+float: left;
+margin-left: 5px;
+  }
+
+body,html{
+    height: 100%;
+}
+
+.font-page{
+    background-image: url('pics/east-london-beaches-green-vegetation-south-africa-193966369.jpg') ;
+    height: 100%;
+    background-repeat: no-repeat 100%;
+
+}
+
+.expirience-1{
+    margin-top:  5%;
+    float: left;
+    margin-left: 5%;
+    background-color: rgba(255, 255, 255, 0.801);
+    width: 25%;
+    height: 400px;
+    
+}
+
+.front-heading{
+    text-align: center;
+    color: white;
+    font-family: sans-serif25px;
+    padding-top: 50px;
+    font-weight: 40px;
+    margin-left: 2%;
+}
+
+.expirience-1 h3{
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.button-1{
+    border: 5px solid black;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+
+li{
+    padding-top: 5%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+nav a{
+
+    padding-left: 10%;
+    margin-left: 10px;
+    text-decoration: none;
+    border-bottom: 5px solid palevioletred;
+    border-top: 5px solid palevioletred;
+    margin-top: 15px;
+    color: rgb(95, 93, 93);
+    font-size: 30px;
+}
+
+nav{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.price{
+    color: blue;
+    margin-left: 10px;
+    font-weight: 30;
+}
+
+.expirience-1 p{
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/*================RESPOSIVE DESIGN============*/
+
+
+@media only screen and (min-width: 350px){
+
+    .front-heading{
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+        padding-top: 15px;
+        font-weight: 20px;
+        margin-left: 2%;
+        font-size: 15px;
+    }
+
+    li{
+        padding-top: 5%;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        padding-right: 2px;
+      
+    }
+
+    nav a{
+    
+        padding-left: 5%;
+        margin-left: 5px;
+        text-decoration: none;
+        border-bottom: 1px solid palevioletred;
+        border-top: 1px solid palevioletred;
+        margin-top: 5px;
+        color: rgb(95, 93, 93);
+        font-size: 10px;
+    }
+    
+    nav{
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    img {
+        width: 5%;
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 10px;
+          }
+
+
+    .expirience-1{
+            margin-top:  5%;
+            float: left;
+            margin-left: 2%;
+            background-color: rgba(255, 255, 255, 0.801);
+            width: 30%;
+            height: 220px;
+            
+        }
+
+        .expirience-1 p{
+            margin-left: 10px;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 7px;
+        }
+
+        .expirience-1 h3{
+            text-align: center;
+            font-size: 15px;
+        
+        }
+
+        .button-1{
+            border: 2px solid black;
+            margin-top: 7px;
+            margin-left: 40px;
+        }
+
+}
+
+
+@media only screen and (min-width: 550px){
+
+    .front-heading{
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+        padding-top: 50px;
+        font-weight: 40px;
+        margin-left: 2%;
+        font-size: 25px;
+    }
+
+    nav a{
+    
+        padding-left: 5%;
+        margin-left: 3px;
+        text-decoration: none;
+        border-bottom: 1px solid palevioletred;
+        border-top: 1px solid palevioletred;
+        margin-top: 5px;
+        color: rgb(95, 93, 93);
+        font-size: 20px;
+    }
+
+    li{
+        padding-top: 5%;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+    
+    nav{
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
+    .expirience-1{
+        margin-top:  5%;
+        float: left;
+        margin-left: 2%;
+        background-color: rgba(255, 255, 255, 0.801);
+        width: 40%;
+        height: 300px;
+        
+    }
+
+    .expirience-1 p{
+        margin-left: 10px;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .expirience-1 h3{
+        text-align: center;
+        font-size: 15px;
+    
+    }
+
+    .button-1{
+        border: 2px solid black;
+        margin-top: 7px;
+        margin-left: 40px;
+    }
+
+}
